@@ -103,7 +103,7 @@
   </wsdl:binding>
   <wsdl:service name="ZhengShanWsIService">
     <wsdl:port name="ZhengShanWsIPort" binding="tns:ZhengShanWsIServiceSoapBinding">
-      <soap:address location="http://192.168.1.122:8081/freshBeef/ws/zhengShanWs" />
+      <soap:address location="http://172.16.11.1/freshBeef/ws/zhengShanWs?wsdl" />
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>
